@@ -1,0 +1,25 @@
+
+/*==============*/
+/* Construction */
+/*==============*/
+
+/* Style général */
+#construction {
+    position:relative;
+
+    width: 70%;
+    margin: auto;
+    padding-top: 0;
+    margin-bottom: 20px;
+
+    font-family: "Melbourne_regular_basic";
+    font-size: 300%;
+    text-align: center;
+    line-height: 80px;
+
+}
+
+#construction img {
+    width: 50%;
+    border: 10px solid rgb(69, 129, 68);
+}

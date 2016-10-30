@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <meta charset="utf-8" />
+    <title>GK Tea : Site des meilleurs thés GK</title>
+
+    <link rel="stylesheet" href="css/main.css" type="text/css" />
+    <link rel="stylesheet" href="css/photos.css" type="text/css" />
+    <script language="javascript" src="photos.js"></script>
+
+</head>
+
+<body>
+    <div class="body2">
+        <nav id="menu_top">
+            <ul>
+                <li><a href="index.html">Accueil</a></li>
+                <li><a href="temp.html">GK Tea</a></li>
+                <li><a href="nos_thes.html" class="currentLink">Nos thés</a>
+                    <ul>
+                        <li><a href="#" class="currentLink">Photos</a></li>
+                        <li><a href="videos.html">Vidéos</a></li>
+                    </ul>
+                </li>
+                <li><a href="trouvez_nous.html">Trouvez-nous</a></li>
+                <li><a href="temp.html">Nous contacter</a></li>
+            </ul>
+        </nav>
+        <div class="cl"></div>
+
+
+        <div class="container">
+
+            <header id="header_top">
+                <a id="gklogo" href="index.html"><img src="images/gklogo.png" /></a>
+                <img id="teacup" src="images/tasse_the.jpg" />
+                <img id="page_title" src="images/h2.png" />
+                <ul>
+                    <li><a href="#">Découvrir nos thés</a></li>
+                </ul>
+
+            </header>
+            <section class="content_hp">
+                <article id="article_1">
+                    <h1>75 variétés de thés</h1>
+                    <p>
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor
+                        in reprehenderit in voluptate velit.
+                    </p>
+                </article>
+
+                <article id="article_2">
+                    <h1>Des thés de Chine</h1>
+                    <p>
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                    </p>
+                </article>
+
+                <article id="article_3">
+                    <h1>Des conseils détente</h1>
+                    <p>
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor
+                        in reprehenderit in..
+                    </p>
+                </article>
+            </section>
+
+
+
+            <div id="slideshow">
+                <div>Nos photos</div>
+                <img class="slide" src="images/slide_1.jpg">
+                <img class="slide" src="images/slide_2.jpg">
+                <img class="slide" src="images/slide_3.jpg">
+                <img class="slide" src="images/slide_4.jpg">
+                <div id="buttons_slideshow">
+                    <div id="left_arrow" onclick="plusDivs(-1)">&#10094;</div>
+                    <div id="right_arrow" onclick="plusDivs(1)">&#10095;</div>
+                    <span class="middle_buttons" onclick="currentDiv(1)"></span>
+                    <span class="middle_buttons" onclick="currentDiv(2)"></span>
+                    <span class="middle_buttons" onclick="currentDiv(3)"></span>
+                    <span class="middle_buttons" onclick="currentDiv(4)"></span>
+                </div>
+            </div>
+
+
+            <footer id="footer_site">
+                <div id="social_network">
+                    <p>Retrouvez-nous aussi sur : </p>
+                    <a href="#"><img src="images/fb.png" /></a>
+                    <a href="#"><img src="images/twitter.png" /></a>
+                </div>
+                <div id="copyright">
+                    <p>&copy; GK - Tous droits réservés - </p>
+                    <a href="http://globalknowledge.com">
+                          www.globalknowledge.com
+                    </a>
+                </div>
+            </footer>
+        </div>
+    </div>
+
+    <script>
+        var slideIndex = 1;
+        showDivs(slideIndex);
+    </script>
+
+</body>
+
+</html>

@@ -1,0 +1,305 @@
+
+/*===================================*/
+/* Définition des polices d'écriture */
+/*===================================*/
+
+@font-face {
+    font-family: "Melbourne_regular_basic";
+
+    src: url("../fonts/Melbourne_regular_basic.otf");
+}
+
+@font-face {
+    font-family: "ginko";
+
+    src: url("../fonts/ginko.ttf");
+}
+
+/*=======================*/
+/* Mise en page générale */
+/*=======================*/
+
+/* Images de fond */
+body {
+    margin: 0;
+    padding: 0;
+
+    background-image: url("../images/bg_body.jpg");
+}
+
+.body2 {
+    z-index: -1;
+
+    width: 100%;
+    margin: auto;
+
+    background-image: url("../images/bg_header.jpg");
+    background-repeat:no-repeat;
+    background-position:50% 0;
+}
+
+/* Format de la page sous le bandeau de navigation */
+.container {
+    width: 950px;
+    margin: auto;
+    margin-top: 20px;
+}
+
+/*=======================*/
+/* Bandeau de navigation */
+/*=======================*/
+
+nav {
+    width:100%;
+
+    white-space:nowrap;
+
+    background-color: rgba(69, 129, 68, 0.6);
+}
+
+nav ul {
+    display: flex;
+
+    width:55%;
+    margin: auto;
+    padding: 0;
+
+    list-style-type: none;
+
+    justify-content: flex-end;
+}
+
+nav ul li a {
+    padding: 0 17px;
+
+    text-decoration: none;
+
+    color: white;
+
+    font-family: "Melbourne_regular_basic";
+    font-size: 130%;
+}
+
+nav ul li a:hover {
+    background-image: url("../images/menu_hover.png");
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.currentLink {
+    background-image: url("../images/menu_hover.png");
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+/* Menu déroulant */
+nav ul li ul {
+    position: absolute;
+	width: 100px;
+	left: -999px;
+    display: block;
+    background-color: rgba(69, 129, 68, 0.6);
+}
+
+nav ul li ul li {
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+
+nav ul li:hover ul {
+    left: auto;
+}
+
+/*==================*/
+/* Style des titres */
+/*==================*/
+
+h1 {
+    padding-bottom: 10px;
+
+    background-image: url("../images/bg_titre.jpg");
+    background-repeat: no-repeat;
+    background-position: bottom;
+    background-size: 100%;
+
+    font-family: "Melbourne_regular_basic";
+    font-size: 160%;
+}
+
+/*========*/
+/* Header */
+/*========*/
+
+/* Positionnement des images du header */
+#header_top {
+    margin-top:80px;
+}
+
+#gklogo {
+    position:relative;
+    bottom:50px;
+    width: 300px;
+    display:block;
+}
+
+#teacup {
+    position:relative;
+    top:20px;
+}
+
+#page_title {
+    position:relative;
+    bottom:20px;
+}
+
+/* Position et style du lien "Découvrir nos thés" */
+#header_top ul li {
+    position: relative;
+    bottom:20px;
+    left: 750px;
+
+    width: 150px;
+}
+
+#header_top ul li a {
+    text-decoration: none;
+
+    color: rgb(69, 129, 68);
+
+    font-family: arial;
+    font-size: 90%;
+}
+
+#header_top ul li a:hover {
+    text-decoration: underline;
+}
+
+#header_top ul li {
+    list-style-image: url("../images/puce_header_more.png");
+}
+
+
+/*==========*/
+/* Articles */
+/*==========*/
+
+.content_hp {
+    position: relative;
+    top: -25px;
+
+    height: 210px;
+}
+
+.content_hp article {
+    display: inline-block;
+
+    width: 33%;
+
+    vertical-align: top;
+}
+
+#article_1 h1:before {
+    padding: 0 15px;
+
+    content: " ";
+
+    background-image: url("../images/icone1.jpg");
+    background-repeat:no-repeat;
+}
+
+#article_2 h1:before {
+    padding: 0 15px;
+
+    content: " ";
+
+    background-image: url("../images/icone2.jpg");
+    background-repeat:no-repeat;
+}
+
+#article_3 h1:before {
+    padding: 0 15px;
+
+    content: " ";
+
+    background-image: url("../images/icone3.jpg");
+    background-repeat:no-repeat;
+}
+
+
+article p {
+    width: 90%;
+
+    text-align: justify;
+
+    color: rgb(101, 101, 101);
+
+    font-family:  arial;
+    font-size: 90%;
+}
+
+/*========*/
+/* Footer */
+/*========*/
+
+/* Style général du footer */
+#footer_site {
+    position: relative;
+    left: -30px;
+
+    display: flex;
+
+    width: 1000px;
+    margin-bottom: 50px;
+    padding-top: 0;
+
+    background-image: url("../images/bg_footer.png");
+    background-repeat: no-repeat;
+
+    font-family: arial;
+    font-size: 80%;
+
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* Réseaux sociaux */
+#social_network {
+    display: flex;
+
+    padding-top: 4px;
+    padding-left: 60px;
+
+    justify-content: flex-start;
+}
+
+#social_network a {
+    padding-left: 5px;
+
+    align-self: center;
+}
+
+/* Copyright */
+#copyright {
+    display: flex;
+
+    margin-left: auto;
+    padding-top: 4px;
+
+    justify-content: flex-start;
+}
+
+#copyright p {
+    color:  rgb(101, 101, 101);
+}
+
+#copyright a {
+    padding-left: 3px;
+
+    color: rgb(69, 129, 68);
+
+    align-self: center;
+}
+
+#copyright a:hover {
+    text-decoration: none;
+}

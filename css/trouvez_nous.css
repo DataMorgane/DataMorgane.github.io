@@ -1,0 +1,41 @@
+/*=======*/
+/* Carte */
+/*=======*/
+
+/* Background des news */
+#google_map {
+    position: relative;
+    left: -25px;
+
+    float: left;
+
+    width: 500px;
+    height: 500px;
+    margin: 10px;
+}
+
+
+
+/*=========*/
+/* Adresse */
+/*=========*/
+
+/* Style général et image de fond */
+#address {
+    position:relative;
+
+    float:right;
+
+    width:360px;
+    height: 380px;
+    padding-top: 70px;
+
+    color: rgb(101, 101, 101);
+    background-image: url("../images/pot_newsletter.png");
+    background-repeat: no-repeat;
+    background-position: bottom right;
+
+    font-family: arial;
+    font-size: 150%;
+    line-height: 150%;
+}

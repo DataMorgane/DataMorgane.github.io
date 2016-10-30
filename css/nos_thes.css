@@ -1,0 +1,35 @@
+/*==========*/
+/* Nos thés */
+/*==========*/
+
+/* Style général */
+#nos_thes {
+    position:relative;
+
+    width: 100%;
+    margin: auto;
+    padding-top: 0;
+    margin-bottom: 70px;
+
+    font-family: "Melbourne_regular_basic";
+    font-size: 300%;
+    text-align: center;
+    line-height: 70px;
+
+}
+
+#nos_thes a {
+    text-decoration: none;
+    font-family: arial;
+    font-size: 80%;
+    color:  rgb(69, 129, 68);
+}
+
+#nos_thes a:hover {
+    text-decoration: underline;
+}
+
+#nos_thes img {
+    position: relative;
+    transform: rotate(180deg);
+}

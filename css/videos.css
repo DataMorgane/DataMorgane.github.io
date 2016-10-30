@@ -1,0 +1,19 @@
+/*========*/
+/* Videos */
+/*========*/
+
+/* Style général */
+#videos {
+    position:relative;
+
+    width: 100%;
+    margin: auto;
+    padding-top: 0;
+    margin-bottom: 50px;
+
+    font-family: "Melbourne_regular_basic";
+    font-size: 300%;
+    text-align: center;
+    line-height: 80px;
+
+}

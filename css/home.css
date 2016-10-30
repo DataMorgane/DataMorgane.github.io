@@ -1,0 +1,179 @@
+
+/*======================*/
+/* Dernières actualités */
+/*======================*/
+
+/* Background des news */
+#news {
+    position: relative;
+    left: -25px;
+
+    background-image: url("../images/bg_news.jpg");
+    background-repeat:no-repeat;
+}
+
+/* Style général de la liste */
+#news ul {
+   height: 350px;
+   padding-top: 45px;
+   padding-left: 10px;
+
+   list-style: none;
+}
+
+#news ul li {
+   padding-left:50px;
+
+   background: url("../images/bg_date.png") no-repeat left top;
+}
+
+#news h2 {
+    display: none;
+}
+
+/* Style des titres des news */
+#news ul li h3 a {
+    text-decoration: none;
+
+    color: black;
+
+    font-family: arial;
+    font-size: 83%;
+}
+
+#news ul li h3 {
+    margin:0;
+    margin-top:15px;
+    margin-bottom:6px;
+}
+
+/* Texte des news */
+#news ul li p {
+    width: 470px;
+    margin:0;
+    margin-bottom:4px;
+
+    font-family: arial;
+    font-size: 83%;
+}
+
+/* Liens "lire la suite" */
+#news ul li .next {
+    text-decoration: none;
+
+    color: rgb(88, 38, 38);
+
+    font-family: arial;
+    font-size: 77%;
+
+    font-style: italic;
+}
+
+#news ul li .next:hover {
+    text-decoration: underline;
+}
+
+/* Style de la date */
+#news ul li time {
+    float:left;
+
+    width: 20px;
+    margin-top: -10px;
+    margin-left: -45px;
+
+    text-align: center;
+
+    font-family: "ginko";
+}
+
+/*=============================*/
+/* Store locator et newsletter */
+/*=============================*/
+
+/* Style général et image de fond */
+#home_bas {
+    position:relative;
+    top: -430px;
+
+    float:right;
+
+    width:390px;
+    height: 480px;
+    margin-bottom: -420px;
+
+    background-image: url("../images/pot_newsletter.png");
+    background-repeat: no-repeat;
+    background-position: 130px 320px;
+}
+
+/* Store locator */
+#store_locator p {
+    color: rgb(101, 101, 101);
+
+    font-family: arial;
+    font-size: 90%;
+}
+
+#store_locator ul li {
+    float: left;
+
+    width: 50%;
+}
+
+#store_locator ul li {
+    list-style-image: url("../images/puce_feuille.png");
+}
+
+#store_locator ul li a {
+    text-decoration: none;
+
+    color: rgb(69, 129, 68);
+
+    font-family: arial;
+    font-size: 90%;
+}
+
+#store_locator ul li a:hover {
+    text-decoration: underline;
+}
+
+/* Newsletter */
+#newsletter {
+    padding-top: 60px;
+}
+
+#newsletter p {
+    color: rgb(101, 101, 101);
+
+    font-family: arial;
+    font-size: 90%;
+}
+
+#newsletter button {
+    width: 103px;
+    height: 26px;
+    margin-top: 5px;
+
+    text-align: center;
+
+    color: rgb(255, 238, 187);
+    border: none;
+
+    background-image: url("../images/bg_btn.jpg");
+    background-repeat: no-repeat;
+}
+
+#newsletter button:hover {
+    cursor: pointer;
+
+    opacity:0.9;
+}
+
+#newsletter button:active {
+    transform: translateY(2px);
+}
+
+#msg_ajax {
+    color: red;
+    font-family: arial;
+}
